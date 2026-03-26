@@ -6,6 +6,7 @@ This repository contains materials for the research paper:
 DOI: 
 
 This study performs a comprehensive, confidence-aware comparison between HOG-based classical classifiers (SVM, RF) and a CNN architecture incorporating Focal Loss, Adaptive CBAM attention, and Monte Carlo Dropout. The CNN architecture was developed in the previous study.
+
 ---
 
 ## Authors
@@ -101,14 +102,14 @@ This study follows an experimental pipeline designed to ensure a fair comparison
 | CNN (DenseNet121)        | 0.922 | 0.856    | 0.855    | 0.979 | 0.033 | 0.840   | 0.75            |
 
 
-![Confusion Matrix SVM](figures/conf_matrix_hog_svm.png)
-![Confidence distribution SVM](figures/conf_distrib_hog_svm.png)
+![Confusion Matrix SVM](figures/hog_svm/conf_matrix_hog_svm.png)
+![Confidence distribution SVM](figures/hog_svm/conf_distrib_hog_svm.png)
 
-![Confusion Matrix SVM](figures/conf_matrix_hog_rf_300.png)
-![Confidence distribution SVM](figures/conf_distrib_hog_rf_300.png)
+![Confusion Matrix SVM](figures/hog_rf/conf_matrix_hog_rf_300.png)
+![Confidence distribution SVM](figures/hog_rf/conf_distrib_hog_rf_300.png)
 
-![Confusion Matrix SVM](figures/conf_matrix_hog_pca_rf_300.png)
-![Confidence distribution SVM](figures/conf_distrib_hog_pca_rf_300.png)
+![Confusion Matrix SVM](figures/hog_pca_rf/conf_matrix_hog_pca_rf_300.png)
+![Confidence distribution SVM](figures/hog_pca_rf/conf_distrib_hog_pca_rf_300.png)
 
 **Key observations:**
 - CNN achieves the highest performance and best uncertainty reliability (lowest AURC).
